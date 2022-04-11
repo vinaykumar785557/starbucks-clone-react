@@ -1,0 +1,58 @@
+.flavours {
+	/* border: 1px solid coral; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.flavour {
+	/* border: 1px solid black; */
+	width: 49%;
+}
+.flavoursphoto {
+	width: 100%;
+	object-fit: contain;
+	height: 100%;
+}
+
+.flavours__text {
+	margin-top: -4px;
+	text-align: center;
+	background-color: #1e3932;
+	color: white;
+	padding: 20px;
+}
+
+.flavours__title {
+	font-size: 50px;
+	padding: 20px;
+}
+
+.flavours__description {
+	font-weight: 500;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.flavours__button {
+	border-radius: 50px;
+	line-height: 1.2;
+	padding: 8px 16px;
+	letter-spacing: 0.02rem;
+	font-size: 15px;
+	font-weight: 700;
+	border-color: white;
+	border-width: 1px;
+	background-color: #1e3932;
+	color: white;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.flavours__button:hover {
+	color: white;
+	border-color: white;
+	border-width: 1px;
+	background: #2e5b51;
+}

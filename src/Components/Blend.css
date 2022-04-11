@@ -1,0 +1,56 @@
+.blend {
+	margin-bottom: 35px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border: 2px solid coral; */
+    background-color: #1e3932;
+}
+
+.blend__coffeeimage {
+	width: 50%;
+	height: auto;
+	object-fit: contain;
+}
+
+.blend__text {
+	/* border: 2px solid crimson; */
+	text-align: center;
+    
+}
+
+.blend__title {
+	padding: 30px;
+    color: white;
+    font-size: 26px;
+}
+
+.blend__description {
+	padding: 30px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.blend__button {
+	margin-bottom: 50px;
+	border-radius: 50px;
+	line-height: 1.2;
+	padding: 8px 16px;
+	letter-spacing: 0.02rem;
+	font-size: 15px;
+	font-weight: 700;
+	border-color: white;
+	border-width: 1px;
+	background-color: #1e3932;
+	color: white;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.blend__button:hover {
+	color: white;
+	border-color: white;
+	border-width: 1px;
+	background: #2e5b51;
+}

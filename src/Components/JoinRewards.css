@@ -1,0 +1,49 @@
+.rewards {
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	background: #1e3932;
+}
+
+.rewards__poster {
+	object-fit: contain;
+	/* width: 850px; */
+	width: 50%;
+	height: 280px;
+	margin-left: 0;
+}
+
+.rewards__text {
+    margin: 0 auto;
+	padding-top: 0px;
+	text-align: center;
+}
+.rewards__text > h1 {
+	margin-bottom: 150px;
+	color: white;
+	font-size: 28px;
+}
+
+.rewards__text > button {
+	border-radius: 50px;
+	line-height: 1.2;
+	padding: 8px 16px;
+	letter-spacing: 0.02rem;
+	font-size: 15px;
+	font-weight: 600;
+	border-color: white;
+	border-width: 1px;
+	background: #1e3932;
+	color: #fff;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.rewards__text > button:hover {
+	color: #fff;
+	border-color: white;
+	border-width: 1px;
+	background: rgba(212, 233, 226, 0.33);
+	opacity: 0.9;
+}

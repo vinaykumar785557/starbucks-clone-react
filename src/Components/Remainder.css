@@ -1,0 +1,19 @@
+.remainder {
+	text-align: center;
+	font-weight: 600;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/* border: 2px solid cadetblue; */
+	padding: 8px;
+	font-size: 14px;
+}
+
+.link {
+	color: black;
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+	text-decoration-color: black;
+}
