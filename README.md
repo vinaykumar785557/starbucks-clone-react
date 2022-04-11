@@ -1,3 +1,9 @@
+# Demo:
+
+
+
+![starbucks-clone-reactjs](https://user-images.githubusercontent.com/77814463/162663601-99dc648c-82b2-46ae-a6d9-1548d807a520.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
